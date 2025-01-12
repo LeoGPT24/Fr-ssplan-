@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frössplan - Interaktive Essensplanung</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <h1>Frössplan</h1>
+
+            <p>Interaktive Essensplanung für Familien</p>
+
+        </div>
+
+    </header>
+
+    <main>
+<section class="meal-planner">
+
+    <div class="container">
+
+        <h2>Wochenplan erstellen</h2>
+
+        <p>Füge hier die Gerichte für die Woche hinzu:</p>
+
+        <form id="meal-form">
+
+            <label for="meal-name">Gericht:</label>
+
+            <input type="text" id="meal-name" placeholder="z. B. Spaghetti Bolognese" required>
+
+            <label for="day-select">Tag:</label>
+
+            <select id="day-select" required>
+
+                <option value="Montag">Montag</option>
+
+                <option value="Dienstag">Dienstag</option>
+
+                <option value="Mittwoch">Mittwoch</option>
+
+                <option value="Donnerstag">Donnerstag</option>
+
+                <option value="Freitag">Freitag</option>
+
+                <option value="Samstag">Samstag</option>
+
+                <option value="Sonntag">Sonntag</option>
+
+            </select>
+
+            <button type="submit" class="btn">Gericht hinzufügen</button>
+
+        </form>
+
+        <h3>Geplanter Wochenplan:</h3>
+
+        <ul id="meal-list"></ul>
+
+    </div>
+
+</section>
+        <section class="about">
+
+            <div class="container">
+
+                <h2>Über Frössplan</h2>
+
+                <p>Frössplan ist eine App, die Familien hilft, ihre Essensplanung für die Woche zu organisieren. Benutzer können Gerichte eintragen, Familienmitglieder abstimmen lassen und gemeinsam einen Wochenplan erstellen.</p>
+
+            </div>
+
+        </section>
+
+        <section class="features">
+
+            <div class="container">
+
+                <h2>Funktionen</h2>
+
+                <ul>
+
+                    <li>Gerichte für die Woche eintragen</li>
+
+                    <li>Familienabstimmungen über Lieblingsgerichte</li>
+
+                    <li>Übersichtliche Wochenplanung</li>
+
+                    <li>Benachrichtigungen für eine einfache Organisation</li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="cta">
+
+            <div class="container">
+
+                <h2>Mach mit!</h2>
+
+                <p>Plane mit Frössplan dein nächstes Familienessen und bringe mehr Spaß in die Küche.</p>
+
+                <a href="#" class="btn">Mehr erfahren</a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container">
+
+            <p>&copy; 2025 Frössplan. Alle Rechte vorbehalten.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

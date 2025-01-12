@@ -1,0 +1,197 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
+    margin: 0;
+
+    padding: 0;
+
+    color: #333;
+
+}
+
+header {
+
+    background: #4CAF50;
+
+    color: white;
+
+    padding: 1rem 0;
+
+    text-align: center;
+
+}
+
+header .container {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+}
+
+main .container {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 20px;
+
+}
+
+h1, h2 {
+
+    color: #4CAF50;
+
+}
+
+.about, .features, .cta {
+
+    padding: 20px 0;
+
+}
+
+.features ul {
+
+    list-style-type: square;
+
+    padding-left: 20px;
+
+}
+
+.cta {
+
+    text-align: center;
+
+    background: #f4f4f4;
+
+    padding: 30px 20px;
+
+    margin-top: 20px;
+
+}
+
+.cta .btn {
+
+    display: inline-block;
+
+    background: #4CAF50;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+}
+
+.cta .btn:hover {
+
+    background: #45a049;
+
+}
+
+footer {
+
+    text-align: center;
+
+    background: #333;
+
+    color: white;
+
+    padding: 10px 0;
+
+    margin-top: 20px;
+
+}
+
+.meal-planner {
+
+    margin: 20px 0;
+
+}
+
+.meal-planner form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+.meal-planner form label {
+
+    font-weight: bold;
+
+}
+
+.meal-planner form input,
+
+.meal-planner form select,
+
+.meal-planner form button {
+
+    padding: 10px;
+
+    font-size: 16px;
+
+}
+
+.meal-planner ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+.meal-planner li {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px;
+
+    background: #f4f4f4;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+
+}
+
+.meal-planner .delete-btn {
+
+    background: #ff4d4d;
+
+    color: white;
+
+    border: none;
+
+    padding: 5px 10px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+.meal-planner .delete-btn:hover {
+
+    background: #e60000;
+
+}
